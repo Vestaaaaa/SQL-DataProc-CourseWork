@@ -1,0 +1,89 @@
+Table Customers {
+  customer_id int [pk, increment]
+  first_name varchar
+  last_name varchar
+  email varchar [unique]
+  phone varchar
+  registration_date date
+}
+
+Table Authors {
+  author_id int [pk, increment]
+  first_name varchar
+  last_name varchar
+  country varchar
+}
+
+Table Publishers {
+  publisher_id int [pk, increment]
+  publisher_name varchar
+  country varchar
+}
+
+Table Categories {
+  category_id int [pk, increment]
+  category_name varchar
+}
+
+Table Books {
+  book_id int [pk, increment]
+  isbn varchar [unique]
+  title varchar
+  price decimal
+  publication_year int
+  publisher_id int
+  category_id int
+}
+
+Table BookAuthors {
+  book_id int
+  author_id int
+}
+
+Table Orders {
+  order_id int [pk, increment]
+  customer_id int
+  order_date date
+  status varchar
+}
+
+Table OrderItems {
+  order_item_id int [pk, increment]
+  order_id int
+  book_id int
+  quantity int
+  unit_price decimal
+}
+
+Table Payments {
+  payment_id int [pk, increment]
+  order_id int
+  payment_date date
+  payment_method varchar
+  amount decimal
+}
+
+Table Reviews {
+  review_id int [pk, increment]
+  customer_id int
+  book_id int
+  rating int
+  review_text varchar
+  review_date date
+}
+
+Ref: Books.publisher_id > Publishers.publisher_id
+Ref: Books.category_id > Categories.category_id
+
+Ref: BookAuthors.book_id > Books.book_id
+Ref: BookAuthors.author_id > Authors.author_id
+
+Ref: Orders.customer_id > Customers.customer_id
+
+Ref: OrderItems.order_id > Orders.order_id
+Ref: OrderItems.book_id > Books.book_id
+
+Ref: Payments.order_id > Orders.order_id
+
+Ref: Reviews.customer_id > Customers.customer_id
+Ref: Reviews.book_id > Books.book_id

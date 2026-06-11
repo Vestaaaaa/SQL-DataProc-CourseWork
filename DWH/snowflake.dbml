@@ -1,0 +1,62 @@
+Table DimCustomer {
+  customer_sk int [pk, increment]
+  customer_id int
+  first_name varchar
+  last_name varchar
+  email varchar
+  phone varchar
+
+  start_date date
+  end_date date
+  is_current boolean
+}
+
+Table DimBook {
+  book_sk int [pk, increment]
+  book_id int
+  isbn varchar
+  title varchar
+  price decimal
+  category_name varchar
+  publisher_name varchar
+}
+
+Table DimDate {
+  date_sk int [pk]
+  full_date date
+  day int
+  month int
+  quarter int
+  year int
+}
+
+Table FactSales {
+  sales_id int [pk, increment]
+  book_sk int
+  customer_sk int
+  date_sk int
+  quantity int
+  total_amount decimal
+}
+
+Table FactPayments {
+  payment_id int [pk, increment]
+  customer_sk int
+  date_sk int
+  amount decimal
+  payment_method varchar
+}
+
+Table BridgeBookAuthor {
+  book_sk int
+  author_id int
+}
+
+Ref: FactSales.book_sk > DimBook.book_sk
+Ref: FactSales.customer_sk > DimCustomer.customer_sk
+Ref: FactSales.date_sk > DimDate.date_sk
+
+Ref: FactPayments.customer_sk > DimCustomer.customer_sk
+Ref: FactPayments.date_sk > DimDate.date_sk
+
+Ref: BridgeBookAuthor.book_sk > DimBook.book_sk

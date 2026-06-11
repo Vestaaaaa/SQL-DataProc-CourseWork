@@ -1,0 +1,16 @@
+customer_email,order_date,status
+john.smith@gmail.com,2025-01-10,Delivered
+anna.jones@gmail.com,2025-01-12,Processing
+michael.brown@gmail.com,2025-01-15,Delivered
+emma.wilson@gmail.com,2025-01-20,Delivered
+daniel.taylor@gmail.com,2025-01-22,Delivered
+olivia.moore@gmail.com,2025-02-01,Processing
+james.white@gmail.com,2025-02-03,Delivered
+sophia.harris@gmail.com,2025-02-05,Cancelled
+william.martin@gmail.com,2025-02-08,Delivered
+ava.thompson@gmail.com,2025-02-10,Delivered
+benjamin.garcia@gmail.com,2025-02-12,Processing
+mia.martinez@gmail.com,2025-02-15,Delivered
+lucas.robinson@gmail.com,2025-02-18,Delivered
+charlotte.clark@gmail.com,2025-02-20,Delivered
+henry.lewis@gmail.com,2025-02-24,Delivered

@@ -1,0 +1,17 @@
+customer_email,order_date,isbn,quantity
+john.smith@gmail.com,2025-01-10,9780132350884,2
+john.smith@gmail.com,2025-01-10,9780137081073,1
+anna.jones@gmail.com,2025-01-12,9780134494166,1
+michael.brown@gmail.com,2025-01-15,9781617294945,1
+emma.wilson@gmail.com,2025-01-20,9781492056355,2
+daniel.taylor@gmail.com,2025-01-22,9781491950357,1
+olivia.moore@gmail.com,2025-02-01,9780262033848,1
+james.white@gmail.com,2025-02-03,9780134685991,2
+sophia.harris@gmail.com,2025-02-05,9780596009205,1
+william.martin@gmail.com,2025-02-08,9780131177055,1
+ava.thompson@gmail.com,2025-02-10,9780061120084,3
+benjamin.garcia@gmail.com,2025-02-12,9780743273565,2
+mia.martinez@gmail.com,2025-02-15,9780553380163,1
+lucas.robinson@gmail.com,2025-02-18,9780393356182,1
+charlotte.clark@gmail.com,2025-02-20,9780590353427,2
+henry.lewis@gmail.com,2025-02-24,9780547928227,1

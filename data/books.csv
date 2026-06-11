@@ -1,0 +1,21 @@
+isbn,title,price,publication_year,publisher_name,category_name
+9780132350884,Clean Code,45.99,2008,Pearson,Programming
+9780137081073,Clean Coder,39.99,2011,Pearson,Programming
+9780134494166,Clean Architecture,49.99,2017,Pearson,Programming
+9781617294945,Spring in Action,54.99,2018,Manning,Programming
+9781492056355,Designing Data Intensive Applications,59.99,2017,OReilly,Programming
+9781491950357,Building Microservices,52.99,2021,OReilly,Programming
+9780262033848,Introduction to Algorithms,89.99,2022,MIT Press,Programming
+9780134685991,Effective Java,55.99,2018,Pearson,Programming
+9780596009205,Head First Design Patterns,44.99,2004,OReilly,Programming
+9780131177055,Artificial Intelligence Modern Approach,79.99,2021,Pearson,Programming
+9780061120084,To Kill a Mockingbird,14.99,1960,HarperCollins,Fiction
+9780743273565,The Great Gatsby,12.99,1925,Scribner,Fiction
+9780553380163,A Brief History of Time,18.99,1988,Bantam,Science
+9780393356182,Sapiens,22.99,2015,Harper,History
+9780140449136,The Odyssey,16.99,1996,Penguin Classics,Classics
+9780307474278,The Road,15.99,2006,Vintage,Fiction
+9781982137274,The Institute,21.99,2019,Scribner,Fiction
+9780385545969,Fairy Tale,24.99,2022,Scribner,Fiction
+9780590353427,Harry Potter and the Sorcerers Stone,19.99,1997,Scholastic,Fantasy
+9780547928227,The Hobbit,18.99,1937,Houghton Mifflin,Fantasy
